@@ -1,4 +1,5 @@
 import React from 'react'
+import HeroContext from '../sub/HeroContext'
 
 const Hero = () => {
   return (
@@ -6,6 +7,7 @@ const Hero = () => {
       <video autoPlay muted loop className='rotate-180 absolute top-[-340px] left-0 x-[-1] w-full h-full object-cover'>
         <source src='blackhole.webm' type='video/webm'/>
       </video>
+      <HeroContext />
     </div>
   )
 }
